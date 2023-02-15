@@ -59,3 +59,13 @@ nice_scatter(data = mtcars,
              has.confband = TRUE,
              has.r = TRUE,
              has.p = TRUE)
+
+plot_outliers(airquality, 
+              group = "Month",
+              response = "Ozone")
+
+nice_varplot(data = iris,
+             variable = "Sepal.Length",
+             group = "Species")
+
+
